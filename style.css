@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+}
+
+/* TYPOGRAPHY */
+
+h1,
+h2,
+strong {
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 36px;
+  color: white;
+  margin: 0;
+}
+
+h2 {
+  font-size: 24px;
+  color: #ef5839;
+}
+
+a {
+  color: #ef5839;
+}
+
+a:hover,
+a:focus {
+  color: #d4b44c;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 25px;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 14px;
+}
+
+.orange-btn {
+  background-color: #ef5839;
+  color: white;
+}
+
+.orange-btn:hover {
+  background: #d4b44c;
+  color: #2e354f;
+}
+
+.white-btn {
+  background-color: white;
+  color: #2e354f;
+}
+
+.white-btn:hover {
+  color: white;
+  background: #999;
+}
+
+/* LAYOUT */
+
+.container {
+  margin: 0 auto;
+  width: 620px;
+}
+
+header {
+  background-color: #2e354f;
+  padding: 45px 0;
+}
+
+section {
+  padding: 45px 0;
+}
+
+.section-two {
+  background-color: #2e354f;
+  color: white;
+}
